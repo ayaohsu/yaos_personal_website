@@ -1,0 +1,44 @@
+body {
+  background-image: url("img/santa_juana_lodge_view.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+.name-section {
+	color: white;
+    text-align: center;
+	font-family: "Bookman";
+    font-size: 80px;
+	padding: 270px 0;
+}
+
+.links-section {
+	color: Azuer;
+    text-align: center;
+	font-size: 30px;
+	padding: 20px 0;
+}
+.fa {
+  opacity: 0.8;
+  width: 38px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin:hover {
+  opacity: 1;
+}
+
+.fa-github:hover {
+  opacity: 1;
+}
