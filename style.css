@@ -1,11 +1,27 @@
 body {
    background-position: center;
    background-size: cover;
+   background-color: #f2f2f2
 }
 
 .links-section {
-	color: Azuer;
-    text-align: center;
+	color: Azuer;    
 	font-size: 20px;
 	padding: 20px 0;
+    text-align: left;
+}
+
+.profile {
+    width: 300px;
+    margin: 50px 50px 20px 150px
+}
+
+#profile-photo {
+    border-radius: 5%;
+}
+
+.summary {
+    font-family: "Lucida Grande", sans-serif;
+    width: 600px;
+    margin: 50px 200px 0px 50px
 }
