@@ -4,24 +4,35 @@ body {
    background-color: #f2f2f2
 }
 
-.links-section {
-	color: Azuer;    
-	font-size: 20px;
-	padding: 20px 0;
-    text-align: left;
+#profile-table {
+    display: table;
+    border-spacing: 50px;
 }
 
-.profile {
+#first-row-profile-table {
+    display: table-row;
+}
+
+#profile-image-div {
+    display: table-cell;
     width: 300px;
-    margin: 50px 50px 20px 150px
+    vertical-align: top;
 }
 
-#profile-photo {
+#profile-image {
     border-radius: 5%;
 }
 
-.summary {
+#summary-div {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
     font-family: "Lucida Grande", sans-serif;
-    width: 600px;
-    margin: 50px 200px 0px 50px
+}
+
+.links-section {
+	color: Azuer;    
+	font-size: 20px;
+	padding: 20px 0px 20px 40px;
+    text-align: left;
 }
